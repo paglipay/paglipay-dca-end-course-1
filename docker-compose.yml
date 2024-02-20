@@ -5,4 +5,5 @@ services:
     image: paglipay/redis:latest
     deploy:
       replicas: 3 # adjust the number of replicas as needed
-
+    ports:
+      - "6379:6379"

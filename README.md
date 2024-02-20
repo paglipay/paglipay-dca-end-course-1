@@ -65,3 +65,10 @@ ehtus80hvni5789cm05hjf5s9     u7                                  Ready     Acti
 nh6y7d6dp89csod0vo044qy7t     u8                                  Ready     Active                          20.10.21
 letd3q1nmonkvgnq78ekz4say     u9                                  Ready     Active                          20.10.21
 yuczz7oxm7oogpjk7suetofz5 *   ub-desk-230                         Ready     Active         Reachable        20.10.21
+
+docker stack deploy -c docker-compose.yml redis
+Creating network redis_default
+Creating service redis_redis
+paul@ub-desk-230:~/Documents/Projects/paglipay-dca-end-course-1$ docker service ls
+ID             NAME                          MODE         REPLICAS   IMAGE                                          PORTS
+c5vvk57aysjs   redis_redis                   replicated   3/3        paglipay/redis:latest
