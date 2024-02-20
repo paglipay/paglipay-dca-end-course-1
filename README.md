@@ -34,3 +34,34 @@ The push refers to repository [docker.io/paglipay/redis]
 603c6b6775e1: Pushed
 d4fc045c9e3a: Mounted from library/alpine
 latest: digest: sha256:59611d225dcd8f637fbdbe1b67d286c2582e390cd7c2ffb383421e4b1e1fe78a size: 739
+
+ssh paul@192.168.0.11
+The authenticity of host '192.168.0.11 (192.168.0.11)' can't be established.
+ED25519 key fingerprint is SHA256:hS2T8kGdCgOVWz9fzFYDrfPI92MXxXIGecVgFWEdoMY.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '192.168.0.11' (ED25519) to the list of known hosts.
+paul@192.168.0.11's password:
+Welcome to Ubuntu 20.04.2 LTS (GNU/Linux 5.15.0-89-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+180 updates can be applied immediately.
+8 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+
+The list of available updates is more than a week old.
+To check for new updates run: sudo apt update
+Last login: Tue Feb 20 07:06:59 2024 from 192.168.0.12
+paul@ub-desk-230:~$ docker node ls
+ID                            HOSTNAME                            STATUS    AVAILABILITY   MANAGER STATUS   ENGINE VERSION
+ws5322j0c2lvcjjw57n83oh1w     paul-HP-Compaq-8000-Elite-USDT-PC   Ready     Active         Reachable        20.10.21
+xsr5ijr00qb40ja27211ikqra     paul-jetson-nano                    Ready     Active         Leader           20.10.21
+ytpcn1xii3ataofajcmf44iot     u6                                  Ready     Active                          20.10.21
+ehtus80hvni5789cm05hjf5s9     u7                                  Ready     Active                          20.10.21
+nh6y7d6dp89csod0vo044qy7t     u8                                  Ready     Active                          20.10.21
+letd3q1nmonkvgnq78ekz4say     u9                                  Ready     Active                          20.10.21
+yuczz7oxm7oogpjk7suetofz5 *   ub-desk-230                         Ready     Active         Reachable        20.10.21

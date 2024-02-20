@@ -5,9 +5,4 @@ services:
     image: paglipay/redis:latest
     deploy:
       replicas: 3 # adjust the number of replicas as needed
-      restart_policy:
-        condition: on-failure
 
-networks:
-  default:
-    external: true
