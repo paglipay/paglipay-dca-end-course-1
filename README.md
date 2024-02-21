@@ -97,3 +97,4 @@ The organization requires Redis for data storage and caching within a Swarm clus
 
 ![alt text](https://github.com/paglipay/paglipay-dca-end-course-1/blob/main/captures/Screenshot%202024-02-20%20092953.png?raw=true)
 
+![alt text](https://github.com/paglipay/paglipay-dca-end-course-1/blob/main/captures/dca-aws-swarm.PNG?raw=true)
