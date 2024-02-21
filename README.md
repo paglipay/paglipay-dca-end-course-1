@@ -85,5 +85,15 @@ The organization requires Redis for data storage and caching within a Swarm clus
     ID             NAME                          MODE         REPLICAS   IMAGE                                          PORTS
     c5vvk57aysjs   redis_redis                   replicated   3/3        paglipay/redis:latest
     ```
+
+## Gallery
 ![alt text](https://github.com/paglipay/paglipay-dca-end-course-1/blob/main/captures/Screenshot%202024-02-20%20093146.png?raw=true)
+
+![alt text](https://github.com/paglipay/paglipay-dca-end-course-1/blob/main/captures/Screenshot%202024-02-20%20092648.png?raw=true)
+
+![alt text](https://github.com/paglipay/paglipay-dca-end-course-1/blob/main/captures/Screenshot%202024-02-20%20092738.png?raw=true)
+
+![alt text](https://github.com/paglipay/paglipay-dca-end-course-1/blob/main/captures/Screenshot%202024-02-20%20092845.png?raw=true)
+
+![alt text](https://github.com/paglipay/paglipay-dca-end-course-1/blob/main/captures/Screenshot%202024-02-20%20092953.png?raw=true)
 
